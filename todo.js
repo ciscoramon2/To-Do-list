@@ -18,3 +18,6 @@ function checkboxClicked(checkbox) {
 checkbox.addEventListener("change", function() {
     checkboxClicked(this);
 });
+
+localStorage.setItem("name","John Doe");
+document.getElementById("demo").innerHTML = localStorage.getItem("name");
