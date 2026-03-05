@@ -69,6 +69,7 @@ window.onload = function() {
     }
 };
 
+// localStorage.removeItem("event1");
 
 // function checkboxClicked(checkbox) {
 //     const checkboxText = checkbox.nextElementSibling;
